@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Details</title>
+  </head>
+  <body>
+    <h1>My Contact details</h1>
+    <p>My Fictional Address</p>
+    <p>98XXXXXXX</p>
+    <p>myemail@google.com</p>
+    <hr>
+    <!-- encoding type should be in text/ plain instead of percentage sign etc -->
+    <form  action="mailto:luckygurmeet9@gmail.com" method="post" enctype="text/plain">
+      <!-- it will open my email box to send the data to luckygurmeet9 -->
+      <label>Your Name</label>
+      <input type="text" name="YOur Name" value=""><br>
+      <label>Your Email</label>
+      <input type="email" name="Your Email" value=""><br>
+      <label>Your Message:</label><br>
+      <textarea name="Your Message" rows="8" cols="80"></textarea><br>
+      <input type="submit" name="" value="save">
+
+      <!-- output
+      YOur Name=Gurmeet Singh
+      Your Email=luckygurmeet9@gmail.com
+      Your Message=dkkdkd -->
+
+
+
+    </form>
+  </body>
+</html>

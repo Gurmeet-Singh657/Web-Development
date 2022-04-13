@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>🥲Gurmeet's Personal Site</title>
+</head>
+
+<body>
+  <!-- image tag is a self closing tag -->
+  <!-- img -> html element
+    src = "Gurmeet.png" -> html attribute
+  -->
+  <img src ="https://pbs.twimg.com/profile_images/1428466177643147266/QzETCtiM_400x400.jpg" alt="This is my image"> <!-- alt is alternative image -->
+  <img src="Gurmeet Singh photo.jpg"  height="440px" width="500px" alt="This is other image">
+  <h1> Gurmeet Singh </h1>
+  <p>
+     Sophomore at MAIT
+  </p>
+  <p>
+    I ❤️ love web development and coding
+  </p>
+  <hr />
+  <h3> Books and Teachings </h3>
+  <ul>
+    <li>Intern at takeuforward</li>
+    <li>DSA Mentor @ GCI</li>
+  </ul>
+  <hr />
+  <h3>My Hobbies </h3>
+  <ol>
+    <li>Coding</li>
+    <li>Watching TV</li>
+  </ol>
+</body>
+
+</html>
